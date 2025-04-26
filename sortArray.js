@@ -1,3 +1,10 @@
+//Given an Array containing integers, floats, and one character strings,
+//write a function that takes an Array as a parameter and returns an
+//Object with keys evens, odds, and chars. The value for evens is an array
+//of sorted even numbers, the value for odds is a list of sorted odd
+//numbers and chars is a list of sorted single-character strings.
+
+
 const arraySorter = (array) => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
